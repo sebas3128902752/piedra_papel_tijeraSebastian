@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagenes/piedra,papelytijera.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  
+  <title >piedra, papel y tijera</title>
+</head>
+<body>
+  <h1 class="queso">piedra, papel y tijera</h1>
+  <hr>
+  <button id="btn-reload">regargar</button>  
+  <h3 id="h3-result" class="h3-result">resultado del juego</h3>
+  <div class="container-game">
+    <div class="player">
+      <h2>usuario</h2>
+      <p id="user-points">0</p>
+      <div class="buttons-user">
+        <button id="btn-rock"><img src="imagenes/piedra.gif" alt="piedra"></button>
+        <button id="btn-paper"><img src="imagenes/papel.gif" alt="papel"></button>
+        <button id="btn-scissors"><img src="imagenes/tijera.gif" alt="tijera"></button>
+      </div>
+      <div class="choice">
+        <h2>¡Aquí está tu elección!</h2>
+        <img id="img-selected" class="img-selected" src="imagenes/tres.gif" alt="ppt">
+      </div>
+    </div>
+    <div class="cpu">
+      <h2 class="option-h2">pc</h2>
+      <p id="cpu-points">0</p>
+      <div class="buttons-cpu">
+        <label id="lbl-rock"><img src="imagenes/piedra.gif" alt="piedra"></label>
+        <label id="lbl-paper"><img src="imagenes/papel.gif" alt="papel"></label>
+        <label id="lbl-scissors"><img src="imagenes/tijera.gif" alt="tijera"></label>
+      </div>
+      <div class="choice">
+        <h2 class="title-h2">el pc eligio!</h2>
+        <img id="cpu-selected" class="cpu-selected" src="imagenes/tres.gif" alt="ppt">
+      </div>
+    </div>      
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
